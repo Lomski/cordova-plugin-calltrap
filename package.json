@@ -3,9 +3,6 @@
   "version": "0.0.4",
   "description": "Cordova PhoneCall Trap Plugin",
   "scripts": {
-    "clean": "rimraf www",
-    "build": "babel src/js --out-dir www",
-    "prepublish": "npm-run-all clean build",
     "version": "sync-package-version --cordova-plugin"
   },
   "cordova": {
